@@ -30,6 +30,17 @@ Shield2GO (link pending) you are using.
 
 ## Installation
 
+### Development board and Arduino IDE
+This library is intended to work with a host microcontroller. In general, the library should be compatible with any Arduino board, however it has been tested for the following platforms:
+* Sparkfun ESP32 Thing (Espressif Systems, ESP32, Xtensa)
+* Adafruit Feather M0 (Atmel, SAMD21, Cortex M0)
+* STM32 Nucleo (ST Microelectronics, STM32F0, Cortex M0)
+* XMC1100 2Go (Infineon Technologies, XMC1100, Cortex M0)
+* XMC4700 Relax Kit (Infineon Technologies, XMC4700, Cortex M4)
+* WEMOS D1 mini (Espressif Systems, ESP8266, Xtensa)
+
+**Prior following the steps below, please go through installation manual for Arduino IDE for the board you have selected. For instance, the [XMC-for-Arduino](https://github.com/Infineon/XMC-for-Arduino) Arduino library for Infineon's XMC based boards.**
+
 ### Integration of Library
 Please download this repository from GitHub either from the latest [release](https://github.com/Infineon/arduino-optiga-trust-x/releases) of directly [here](https://github.com/Infineon/arduino-optiga-trust-x/archive/v1.0.0.zip)
 
@@ -38,14 +49,6 @@ To install the OPTIGA&trade; Trust X library in the Arduino IDE, please go to **
 
 ![Install Library](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Library_Install_ZIP.png)
 
-## Supported Devices
-In general, the library should be compatible with any Arduino board, however it has been tested for the following platforms:
-* Sparkfun ESP32 Thing (Espressif Systems, ESP32, Xtensa)
-* Adafruit Feather M0 (Atmel, SAMD21, Cortex M0)
-* STM32 Nucleo (ST Microelectronics, STM32F0, Cortex M0)
-* XMC1100 2Go (Infineon Technologies, XMC1100, Cortex M0)
-* XMC4700 Relax Kit (Infineon Technologies, XMC4700, Cortex M4)
-* WEMOS D1 mini (Espressif Systems, ESP8266, Xtensa)
 
 ## Usage
 The library is equiped with eight groups of examples which can be found on the following path: File->Examples>OPTIGATrustX 
